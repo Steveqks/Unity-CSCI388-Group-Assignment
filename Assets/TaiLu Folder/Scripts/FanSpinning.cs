@@ -7,7 +7,8 @@ using UnityEngine.Video;
 public class FanSpinning : MonoBehaviour
 {
     bool spinning = false;
-    float speed;
+    bool speed = false;
+    float Maxspeed;
 
     // Start is called before the first frame update
     void Start()
@@ -29,20 +30,34 @@ public class FanSpinning : MonoBehaviour
     }
     public void Spin()
     {
-        speed = 0f;
-        while (speed <= 300f)
+        float Maxspeed = 0f;
+        while (speed == false)
         {
-            speed += speed + 30f;
-            transform.Rotate(0f, speed * Time.deltaTime, 0f, Space.Self);
+            if (Maxspeed != 300f)
+            {
+                Maxspeed += Maxspeed + 30f;
+                transform.Rotate(0f, Maxspeed * Time.deltaTime, 0f, Space.Self);
+            }
+            else
+            {
+                speed = true;
+            }
         }
     }
 
     public void SpinToStop()
     {
-        while (speed >= 300f && speed != 0f)
+        while (speed == true)
         {
-            speed += speed - 30f;
-            transform.Rotate(0f, speed * Time.deltaTime, 0f, Space.Self);
+            if (Maxspeed != 0f)
+            {
+                Maxspeed += Maxspeed - 30f;
+                transform.Rotate(0f, Maxspeed * Time.deltaTime, 0f, Space.Self);
+            }
+            else
+            {
+                speed = false;
+            }
         }
     }
 
