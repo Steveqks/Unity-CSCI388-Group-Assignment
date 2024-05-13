@@ -347,7 +347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6780377621897443495, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6780377621897443496, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -389,13 +389,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6780377621897443498, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 6780377621897443498, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: m_RenderMode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780377621897443498, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: m_MeshDistribution
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
       propertyPath: playOnAwake
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
       propertyPath: InitialModule.gravityModifier.scalar
-      value: 1.7
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -420,34 +448,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6667405511529114859}
     m_Modifications:
-    - target: {fileID: 319572674442961676, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4f816cbd04e37fa47ae16f6a8a40a59d, type: 2}
-    - target: {fileID: 2265211481680741081, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_Name
-      value: Container_WateringCan_Blue
-      objectReference: {fileID: 0}
-    - target: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.396
-      objectReference: {fileID: 0}
-    - target: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.113
-      objectReference: {fileID: 0}
-    - target: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9932418
-      objectReference: {fileID: 0}
-    - target: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.11606401
-      objectReference: {fileID: 0}
-    - target: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -13.33
-      objectReference: {fileID: 0}
     - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -491,6 +491,34 @@ PrefabInstance:
     - target: {fileID: 2265211481680741081, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
       propertyPath: m_Name
       value: Container_WateringCan_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 319572674442961676, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4f816cbd04e37fa47ae16f6a8a40a59d, type: 2}
+    - target: {fileID: 2265211481680741081, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
+      propertyPath: m_Name
+      value: Container_WateringCan_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.113
+      objectReference: {fileID: 0}
+    - target: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9932418
+      objectReference: {fileID: 0}
+    - target: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.11606401
+      objectReference: {fileID: 0}
+    - target: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -13.33
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
