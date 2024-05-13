@@ -22,10 +22,10 @@ public class waterBool : MonoBehaviour
             // Get the rotation of the object in Euler angles
             Vector3 rotation = objectToRotate.transform.rotation.eulerAngles;
 
-            // Check if the X-axis rotation is greater than 45 degrees and less than 180 degrees
+            // Check if the X-axis rotation is greater than 30 degrees and less than 180 degrees
             if (rotation.x > 30f && rotation.x < 180f)
             {
-                //Debug.Log("X axis rotation is between 45 and 180 deg");
+                //Debug.Log("X axis rotation is between 30 and 180 deg");
                 waterParticle.SetActive(true);
             }
             else
