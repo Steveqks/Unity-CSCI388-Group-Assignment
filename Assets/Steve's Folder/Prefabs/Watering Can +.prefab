@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 86e6c5c3de871494cb862ed784969c11, type: 2}
+  - {fileID: 2100000, guid: 0e6e52f9b5a0f1745a9a648da89b7bcb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -269,7 +269,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 691905558034506750}
+  m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
@@ -420,50 +420,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6667405511529114859}
     m_Modifications:
-    - target: {fileID: 510079228869618628, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_Name
-      value: Attach
-      objectReference: {fileID: 0}
-    - target: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 319572674442961676, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4f816cbd04e37fa47ae16f6a8a40a59d, type: 2}
     - target: {fileID: 2265211481680741081, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
       propertyPath: m_Name
       value: Container_WateringCan_Blue
@@ -488,24 +448,63 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -13.33
       objectReference: {fileID: 0}
+    - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265211481680741081, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      propertyPath: m_Name
+      value: Container_WateringCan_Blue
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8299853541346419747}
-    - targetCorrespondingSourceObject: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7760475086257738929}
+    - targetCorrespondingSourceObject: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8299853541346419747}
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
---- !u!4 &691905558034506750 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8956137888261039914, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
-  m_PrefabInstance: {fileID: 8489482682511951060}
-  m_PrefabAsset: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
 --- !u!4 &7058485312669047991 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 1451414154551744611, guid: 4a69d6e6d2b6c5c49b9d2f4e6fe1b45d, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1451414154551744611, guid: 97d5ec2098013934bb7e8de14095cfa8, type: 3}
   m_PrefabInstance: {fileID: 8489482682511951060}
   m_PrefabAsset: {fileID: 0}
