@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 4656317950174705549}
   - component: {fileID: 1148759635232484207}
   m_Layer: 0
-  m_Name: Watering Can +
+  m_Name: Magic Watering Can
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
