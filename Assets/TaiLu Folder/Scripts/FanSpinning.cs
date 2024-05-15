@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Timers;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
@@ -7,12 +8,22 @@ using UnityEngine.Video;
 
 public class FanSpinning : MonoBehaviour
 {
-    bool spinning = false;
-    float MaxSpeed;
-    float MinSpeed = 0f;
-    float AngleX = 0f; 
-    float AngleZ = 0f;
-    bool test = false;
+    [SerializeField]
+    private bool spinning = false;
+    [SerializeField]
+    private float MaxSpeed = 20f;
+
+    [SerializeField]
+    private float totalSpeed = 0f;
+
+    [SerializeField]
+    private float MinSpeed = 0f;
+    [SerializeField]
+    private float AngleX = 0f;
+    [SerializeField]
+    private float AngleZ = 0f;
+    [SerializeField]
+    private bool test = false;
 
     // Start is called before the first frame update
     void Start()
@@ -38,20 +49,40 @@ public class FanSpinning : MonoBehaviour
     }
     IEnumerator Spin()
     {
-        for (MaxSpeed = 0f; MaxSpeed < 20f; MaxSpeed+= 0.5f)
+        MaxSpeed += 0.05f * Time.deltaTime;
+        if (MaxSpeed > 1.0f)
         {
-            transform.Rotate(AngleX, MaxSpeed * Time.deltaTime, AngleZ, Space.Self);
-            yield return new WaitForSeconds(.1f);
+            MaxSpeed = 1.0f;
         }
+        totalSpeed += MaxSpeed * Time.deltaTime;
+        if (totalSpeed > 5.0f)
+        {
+            totalSpeed = 5.0f;
+        }
+        transform.Rotate(AngleX, totalSpeed, AngleZ);
+        yield return new WaitForSeconds(1);
     }
 
     IEnumerator SpinToStop()
     {
-        for (MinSpeed = MaxSpeed; MinSpeed >= 0f; MinSpeed-= 0.5f)
+        totalSpeed -= MaxSpeed * Time.deltaTime;
+        if (totalSpeed < 0.0f)
         {
-            transform.Rotate(AngleX, MinSpeed * Time.deltaTime, AngleZ, Space.Self);
-            yield return new WaitForSeconds(.1f);
+            totalSpeed = 0;
+            spinning = false;
         }
+        transform.Rotate(AngleX, totalSpeed, AngleZ);
+
+        yield return new WaitForSeconds(0.1f);
+    }
+
+    public void startSpin()
+    {
+
+    }
+    public void stopSpin()
+    {
+
     }
 
     public void ToggleStartStop()
