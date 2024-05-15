@@ -11,13 +11,10 @@ public class FanSpinning : MonoBehaviour
     [SerializeField]
     private bool spinning = false;
     [SerializeField]
-    private float MaxSpeed = 20f;
-
+    [Tooltip("To Slowly increase and decrease the speed of the fan when it start and stop")]
+    private float ControlSpeed = 20f;
     [SerializeField]
     private float totalSpeed = 0f;
-
-    [SerializeField]
-    private float MinSpeed = 0f;
     [SerializeField]
     private float AngleX = 0f;
     [SerializeField]
@@ -44,17 +41,21 @@ public class FanSpinning : MonoBehaviour
             if (test == true)
             {
                 StartCoroutine(SpinToStop());
+                if (ControlSpeed == 0f)
+                {
+                    StopCoroutine(SpinToStop());
+                }
             }
         }
     }
     IEnumerator Spin()
     {
-        MaxSpeed += 0.05f * Time.deltaTime;
-        if (MaxSpeed > 1.0f)
+        ControlSpeed += 0.05f * Time.deltaTime;
+        if (ControlSpeed > 1.0f)
         {
-            MaxSpeed = 1.0f;
+            ControlSpeed = 1.0f;
         }
-        totalSpeed += MaxSpeed * Time.deltaTime;
+        totalSpeed += ControlSpeed * Time.deltaTime;
         if (totalSpeed > 5.0f)
         {
             totalSpeed = 5.0f;
@@ -65,15 +66,19 @@ public class FanSpinning : MonoBehaviour
 
     IEnumerator SpinToStop()
     {
-        totalSpeed -= MaxSpeed * Time.deltaTime;
+        ControlSpeed -= 0.05f * Time.deltaTime;
+        if (ControlSpeed < -0f)
+        {
+            ControlSpeed = 0.0f;
+        }
+        totalSpeed -= ControlSpeed * Time.deltaTime;
         if (totalSpeed < 0.0f)
         {
             totalSpeed = 0;
             spinning = false;
         }
         transform.Rotate(AngleX, totalSpeed, AngleZ);
-
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(1f);
     }
 
     public void startSpin()
