@@ -44,6 +44,10 @@ public class FanSpinning : MonoBehaviour
             if (test == true)
             {
                 StartCoroutine(SpinToStop());
+                if (MinSpeed == 0f)
+                {
+                    StopCoroutine(SpinToStop());
+                }
             }
         }
     }
@@ -65,6 +69,11 @@ public class FanSpinning : MonoBehaviour
 
     IEnumerator SpinToStop()
     {
+        MaxSpeed -= 0.05f * Time.deltaTime;
+        if (MaxSpeed < -0f)
+        {
+            MaxSpeed = 0.0f;
+        }
         totalSpeed -= MaxSpeed * Time.deltaTime;
         if (totalSpeed < 0.0f)
         {
@@ -72,8 +81,7 @@ public class FanSpinning : MonoBehaviour
             spinning = false;
         }
         transform.Rotate(AngleX, totalSpeed, AngleZ);
-
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(1f);
     }
 
     public void startSpin()
