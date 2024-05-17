@@ -23360,6 +23360,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4744283790505015030, guid: b925021113614de4b93910ce3e8cc692, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6630945881062510493, guid: b925021113614de4b93910ce3e8cc692, type: 3}
       propertyPath: m_Name
       value: Magic Watering Can
