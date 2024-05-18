@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 831620710070276701}
   serializedVersion: 2
   m_LocalRotation: {x: -0.13052624, y: 0, z: 0, w: 0.9914449}
-  m_LocalPosition: {x: -0.0031602383, y: 0.388, z: -0.143}
+  m_LocalPosition: {x: -0.0031602383, y: 0.306, z: -0.188}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 2155840912197535283}
   - component: {fileID: 4485658225523449639}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Cover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -438,12 +438,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
       propertyPath: InitialModule.maxNumParticles
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
       propertyPath: InitialModule.startSize.scalar
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -454,13 +466,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      propertyPath: CollisionModule.collidesWith.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780377621897443499, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
       propertyPath: InitialModule.gravityModifier.scalar
       value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6780377621897443495, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7740222434692923638}
   m_SourcePrefab: {fileID: 100100000, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
 --- !u!4 &8299853541346419747 stripped
 Transform:
@@ -472,6 +491,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6780377621897443495, guid: 61cc53f0133ee474a8516539019d56e3, type: 3}
   m_PrefabInstance: {fileID: 3258281039730891915}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7740222434692923638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8299853541346419756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccdc84a4ac532e14082af62f7bc593df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8489482682511951060
 PrefabInstance:
   m_ObjectHideFlags: 0
