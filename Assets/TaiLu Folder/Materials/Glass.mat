@@ -13,9 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BLURQUALITY_LOW
-  - _GRABPASS_ON
   - _LIT_BASECOLOR_ON
-  - _RAIN_ON
   - _REFLECTIONS_ON
   - _SPECULAR_HIGHLIGHTS_ON
   m_InvalidKeywords: []
@@ -25,7 +23,8 @@ Material:
   m_CustomRenderQueue: 3001
   stringTagMap:
     RenderType: Transparent
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - ALWAYS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -260,7 +259,7 @@ Material:
     - _DetailTriplanarFalloff: 1
     - _DetailUseSmoothness: 0
     - _DetailWorkflow: 0
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _DynamicDroplets: 0.5
     - _EdgeFade: 0.1
     - _EdgeFadeToggle: 1
@@ -310,7 +309,7 @@ Material:
     - _RainBias: -1
     - _RainMaskChannel: 0
     - _RainMode: 0
-    - _RainToggle: 1
+    - _RainToggle: 0
     - _ReflCubeOverrideToggle: 0
     - _ReflCubeToggle: 0
     - _ReflShadowAreaLit: 1
