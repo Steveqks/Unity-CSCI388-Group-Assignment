@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class PlayMusic : MonoBehaviour
 {
@@ -20,7 +21,12 @@ public class PlayMusic : MonoBehaviour
     [SerializeField]
     private bool bMusicCheck = false;
 
+    [SerializeField]
+    [Tooltip("Rotation speed of object")]
     private float rotateSpeed = 2.0f;
+
+    [SerializeField]
+    GameObject gHook;
 
 
     // Start is called before the first frame update
@@ -39,7 +45,7 @@ public class PlayMusic : MonoBehaviour
         if(bMusicCheck && discObject != null)
         {
            
-            this.transform.Rotate(rotateSpeed * Time.deltaTime,0,0);
+            gHook.transform.Rotate(0, rotateSpeed * Time.deltaTime, 0,Space.World);
             Debug.Log(discObject + "Rotating");
         }
     }
@@ -48,10 +54,11 @@ public class PlayMusic : MonoBehaviour
     {
         if (MusicSource.clip != null)
         {
-            MusicSource.Play();
             bMusicCheck = true;
+            MusicSource.Play();
         }
     }
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -59,14 +66,21 @@ public class PlayMusic : MonoBehaviour
         {
             discObject = other.gameObject;
             MusicSource.clip = musicList[0];
+            
         }
         if (other.gameObject.name.Equals("BlueDisc"))
         {
             discObject = other.gameObject;
             MusicSource.clip = musicList[1];
-           
         }
+        if (other.gameObject.name.Equals("PurpleDisc"))
+        {
+            discObject = other.gameObject;
+            MusicSource.clip = musicList[2];
+        }
+
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.name.Equals("RedDisc"))
@@ -81,5 +95,12 @@ public class PlayMusic : MonoBehaviour
             MusicSource.clip = null;
             bMusicCheck = false;
         }
+        if (other.gameObject.name.Equals("PurpleDisc"))
+        {
+            discObject = null;
+            MusicSource.clip = null;
+            bMusicCheck = false;
+        }
     }
+   
 }
