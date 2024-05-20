@@ -34,6 +34,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AOTintTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _AlphaMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -66,7 +70,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _AudioLinkTriOffsetMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AudioLinkWireframeMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BCNoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BacklightColorTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -106,6 +126,10 @@ Material:
         m_Texture: {fileID: 18700000, guid: c0fa48a763b58a64aa5dbafeb6a4c84a, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _CubeBlendMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAOMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -122,6 +146,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DetailMetallic:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailMetallicMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -134,11 +162,27 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DetailOcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailPackedMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailRoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailShadowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveFlow:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -150,7 +194,35 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DissolveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortUVMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortUVMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DitherTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DropletMask:
+        m_Texture: {fileID: 2800000, guid: 76ae1285472e6ce48a2f01ef7905b8fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ERimMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ERimTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -178,7 +250,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EmissionMap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FilterMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Flipbook0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Flipbook1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -199,6 +287,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlitterShapeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InterpMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -274,6 +370,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexCube0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MatCap2ndBlendMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -298,11 +402,43 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Matcap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Matcap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapBlendMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapNormal0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapNormal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MirrorTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NearClipMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -312,6 +448,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NoiseTexSSR:
         m_Texture: {fileID: 2800000, guid: b7359cc7e3e84444b88656ff6c166220, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 89819f8cb0b9e5d418f6e90ca96ac9c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap0:
@@ -334,6 +474,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _OutlineMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OutlineTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -350,11 +494,31 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _PackedMask0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PackedMask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PackedMask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PackedMask3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PulseMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -374,6 +538,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RainSheet:
+        m_Texture: {fileID: 2800000, guid: df89a63673a32f4438fba4fb13f0f640, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ReflCube:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -390,11 +558,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ReflectionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ReflectionTex0:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReflectionTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionDissolveMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -410,7 +590,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RimTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScatterTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -434,7 +626,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ShadowMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowRamp:
+        m_Texture: {fileID: 2800000, guid: f276a76437cf84847a5986084b4d11f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ShadowStrengthMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -446,6 +650,26 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecularMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Spritesheet:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Spritesheet1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfaceMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TeamColorMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ThicknessMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -454,21 +678,46 @@ Material:
         m_Texture: {fileID: 18700000, guid: f9e27b340e9c5194199078a54772ec10, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _VertexExpansionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _VertexOffsetMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexRoundingMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - BlurQuality: 1
     - _AAStrength: 1
     - _ACES: 0
+    - _AOContrast: 1
+    - _AOFiltering: 0
+    - _AOIntensity: 0
+    - _AOLightness: 0
+    - _AORemapMax: 1
+    - _AORemapMin: 0
+    - _ATM: 0
+    - _AddCont: 1
+    - _Alpha: 1
     - _AlphaBoostFA: 10
     - _AlphaMaskChannel: 3
     - _AlphaMaskMode: 0
     - _AlphaMaskOpacity: 1
     - _AlphaMaskScale: 1
     - _AlphaMaskValue: 0
+    - _AlphaStrength: 1
     - _AlphaToMask: 0
+    - _AnisoAngleY: 1
+    - _AnisoLayerStr: 0.1
+    - _AnisoLayerY: 1
+    - _AnisoLerp: 0
+    - _AnisoSteps: 2
+    - _AnisoStr: 1
     - _Anisotropy2MatCap: 0
     - _Anisotropy2MatCap2nd: 0
     - _Anisotropy2Reflection: 0
@@ -483,6 +732,9 @@ Material:
     - _AnisotropyShiftNoiseScale: 0
     - _AnisotropySpecularStrength: 1
     - _AnisotropyTangentWidth: 1
+    - _ApplyAlbedoTint: 0
+    - _ApplyOutlineEmiss: 0
+    - _ApplyOutlineLighting: 0
     - _ApplyReflection: 0
     - _ApplySpecular: 1
     - _ApplySpecularFA: 1
@@ -491,6 +743,7 @@ Material:
     - _AreaLitToggle: 0
     - _AsOverlay: 0
     - _AsUnlit: 0
+    - _AttenSmoothing: 1
     - _AudioLink: 0
     - _AudioLink2Emission: 0
     - _AudioLink2Emission2nd: 0
@@ -500,16 +753,95 @@ Material:
     - _AudioLink2Main3rd: 0
     - _AudioLink2Vertex: 0
     - _AudioLinkAsLocal: 0
+    - _AudioLinkBCDissolveBand: 0
+    - _AudioLinkBCDissolveMultiplier: 0
     - _AudioLinkBand: 0
+    - _AudioLinkCutoutBand: 0
+    - _AudioLinkCutoutStrength: 0
+    - _AudioLinkDissolveBand: 0
+    - _AudioLinkDissolveMultiplier: 0
+    - _AudioLinkDistortionBand: 0
+    - _AudioLinkDistortionStrength: 0
     - _AudioLinkEmission: 0
+    - _AudioLinkEmissionBand: 0
     - _AudioLinkEmissionMeta: 0
+    - _AudioLinkEmissionMultiplier: 0
     - _AudioLinkEmissionStrength: 1
+    - _AudioLinkFilterBand: 0
+    - _AudioLinkFilterStrength: 0
     - _AudioLinkMask_UVMode: 0
+    - _AudioLinkOpacityBand: 0
+    - _AudioLinkOpacityStrength: 0
+    - _AudioLinkOutlineBand: 0
+    - _AudioLinkOutlineMultiplier: 0
+    - _AudioLinkRemapBCDissolveMax: 1
+    - _AudioLinkRemapBCDissolveMin: 0
+    - _AudioLinkRemapCutoutMax: 1
+    - _AudioLinkRemapCutoutMin: 0
+    - _AudioLinkRemapDissolveMax: 1
+    - _AudioLinkRemapDissolveMin: 0
+    - _AudioLinkRemapDistortionMax: 1
+    - _AudioLinkRemapDistortionMin: 0
+    - _AudioLinkRemapEmissionMax: 1
+    - _AudioLinkRemapEmissionMin: 0
+    - _AudioLinkRemapFilterMax: 1
+    - _AudioLinkRemapFilterMin: 0
+    - _AudioLinkRemapMax: 1
+    - _AudioLinkRemapMin: 0
+    - _AudioLinkRemapOpacityMax: 1
+    - _AudioLinkRemapOpacityMin: 0
+    - _AudioLinkRemapOutlineMax: 1
+    - _AudioLinkRemapOutlineMin: 0
+    - _AudioLinkRemapRimMax: 1
+    - _AudioLinkRemapRimMin: 0
+    - _AudioLinkRemapRimPulseMax: 1
+    - _AudioLinkRemapRimPulseMin: 0
+    - _AudioLinkRemapTriOffsetMax: 1
+    - _AudioLinkRemapTriOffsetMin: 0
+    - _AudioLinkRemapUVDistortionMax: 1
+    - _AudioLinkRemapUVDistortionMin: 0
+    - _AudioLinkRemapVertManipMax: 1
+    - _AudioLinkRemapVertManipMin: 0
+    - _AudioLinkRemapWireframeMax: 1
+    - _AudioLinkRemapWireframeMin: 0
+    - _AudioLinkRimBand: 0
+    - _AudioLinkRimMultiplier: 0
+    - _AudioLinkRimPulse: 0
+    - _AudioLinkRimPulseSharp: 0.3
+    - _AudioLinkRimPulseWidth: 0.5
+    - _AudioLinkRimWidth: 0
     - _AudioLinkStrength: 1
+    - _AudioLinkToggle: 0
+    - _AudioLinkTriOffsetBand: 0
+    - _AudioLinkTriOffsetCoords: 1
+    - _AudioLinkTriOffsetEndPos: 0.5
+    - _AudioLinkTriOffsetFalloff: 0.05
+    - _AudioLinkTriOffsetMode: 0
+    - _AudioLinkTriOffsetSize: 0.1
+    - _AudioLinkTriOffsetStartPos: -0.5
+    - _AudioLinkTriOffsetStrength: 0
+    - _AudioLinkUVDistortionBand: 0
+    - _AudioLinkUVDistortionMultiplier: 0
     - _AudioLinkUVMode: 1
+    - _AudioLinkVertManipBand: 0
+    - _AudioLinkVertManipMultiplier: 0
     - _AudioLinkVertexUVMode: 1
+    - _AudioLinkWireframeBand: 0
+    - _AudioLinkWireframeCoords: 1
+    - _AudioLinkWireframeEndPos: 0.5
+    - _AudioLinkWireframeFalloff: 0.05
+    - _AudioLinkWireframeMode: 0
+    - _AudioLinkWireframeSize: 0.1
+    - _AudioLinkWireframeStartPos: -0.5
+    - _AudioLinkWireframeStrength: 0
+    - _AutoRotate0: 0
+    - _AutoShift: 0
+    - _AutoShiftSpeed: 0.25
     - _BAKERY_LMSPEC: 0
     - _BAKERY_SHNONLINEAR: 0
+    - _BCDissolveStr: 0
+    - _BCDissolveToggle: 0
+    - _BCRimWidth: 0.5
     - _BackfaceForceShadow: 0
     - _BackfaceReflections: 1
     - _BacklightBackfaceMask: 1
@@ -565,6 +897,8 @@ Material:
     - _BlendOpAlpha: 0
     - _BlendOpAlphaFA: 4
     - _BlendOpFA: 4
+    - _Blur: 1
+    - _BlurStr: 1.3
     - _Brightness: 1
     - _BrightnessDet: 1
     - _BrightnessEmiss: 1
@@ -585,31 +919,54 @@ Material:
     - _CausticsSurfaceFade: 100
     - _CausticsThreshold: 0
     - _CausticsToggle: 1
+    - _ClampAdditive: 1
+    - _ClearCoat: 0
+    - _ClipRimStr: 1
+    - _ClipRimWidth: 1
+    - _ClonePattern: 0
+    - _CloneToggle: 0
     - _ColorMask: 15
+    - _ColorPreservation: 1
+    - _Columns: 8
     - _Contrast: 1
     - _ContrastDet: 1
     - _ContrastEmiss: 1
     - _ContrastPost: 1
     - _ContrastReflShad: 1
+    - _CrossMode: 0
+    - _Crossfade: 0.1
+    - _CubeBlend: 0
+    - _CubeBlendMode: 6
+    - _CubeMode: 0
     - _CubeThreshold: 0.45
     - _Cull: 2
     - _CullMode: 2
+    - _Culling: 2
+    - _CullingMode: 2
     - _Cutoff: 0.5
+    - _DFClones: 0
     - _DepthEffects: 1
     - _DetailAOBlend: 2
     - _DetailAlbedoBlend: 2
+    - _DetailAlbedoBlending: 3
+    - _DetailAlbedoStrength: 1
     - _DetailMaskChannel: 3
     - _DetailMetallicBlend: 2
+    - _DetailMetallicBlending: 0
     - _DetailMetallicChannel: 2
     - _DetailMetallicMult: 0
     - _DetailMetallicStrength: 1
     - _DetailNormalMapScale: 1
     - _DetailNormalStrength: 1
+    - _DetailOcclusionBlending: 2
     - _DetailOcclusionChannel: 0
     - _DetailOcclusionMult: 0
     - _DetailOcclusionStrength: 1
+    - _DetailRot: 0
     - _DetailRotate: 0
     - _DetailRoughBlend: 2
+    - _DetailRoughBlending: 6
+    - _DetailRoughStrength: 1
     - _DetailRoughnessChannel: 1
     - _DetailRoughnessMult: 0
     - _DetailRoughnessStrength: 1
@@ -618,21 +975,58 @@ Material:
     - _DetailTriplanarFalloff: 1
     - _DetailUseSmoothness: 0
     - _DetailWorkflow: 0
+    - _DirectAO: 1
+    - _DirectCont: 0.6
+    - _DisneyDiffuse: 0
+    - _DissolveAmount: 0
+    - _DissolveBlendSpeed: 0.2
+    - _DissolveBlending: 0
+    - _DissolveClones: 0
     - _DissolveNoiseStrength: 0.1
+    - _DissolveRimWidth: 0.5
+    - _DissolveStyle: 0
+    - _DistanceFadeMax: 4
+    - _DistanceFadeMin: 2
     - _DistanceFadeMode: 0
     - _DistanceFadeRimFresnelPower: 5
+    - _DistanceFadeToggle: 0
+    - _DistortDetailUV: 0
+    - _DistortEmissUV: 0
+    - _DistortMainTex: 0
+    - _DistortMainUV: 0
+    - _DistortMatcap0: 0
+    - _DistortMatcap1: 0
+    - _DistortRimUV: 0
+    - _DistortUVStr: 1
+    - _DistortUVs: 0
+    - _Distortion: 0
+    - _DistortionBlend: 0.5
+    - _DistortionStr: 0
     - _DistortionStrength: 0.5
+    - _DistortionStyle: 0
+    - _Dith: 0
     - _DitherMaxValue: 255
+    - _DitheredShadows: 0
+    - _DoFToggle: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 10
     - _DstBlendAlphaFA: 1
     - _DstBlendFA: 1
     - _DummyProperty: 0
+    - _DynamicDroplets: 0.5
+    - _ERimBlending: 0
+    - _ERimEdge: 0
+    - _ERimRoughness: 0.5
+    - _ERimStr: 1
+    - _ERimUseRough: 0
+    - _ERimWidth: 0.7
     - _EdgeFade: 0.1
     - _EdgeFadeOffset: 0.5
     - _EdgeFadePower: 300
     - _EdgeFadeSSR: 0.1
     - _EdgeFadeToggle: 1
+    - _EmissIntensity: 1
+    - _EmissIntensity2: 1
     - _EmissPulseSpeed: 1
     - _EmissPulseStrength: 1
     - _EmissPulseWave: 0
@@ -656,8 +1050,21 @@ Material:
     - _EmissionParallaxDepth: 0
     - _EmissionToggle: 0
     - _EmissionUseGrad: 0
+    - _EnableMaskTransform: 0
+    - _EnablePackedHeight: 0
+    - _EnableSpritesheet: 0
+    - _EnableSpritesheet1: 0
+    - _EnvironmentRim: 0
+    - _FPS: 30
+    - _FPS1: 30
+    - _Fade: 1.25
+    - _Falloff: 0
+    - _FalloffMode: 0
     - _Filtering: 0
     - _FlipNormal: 0
+    - _Flipbook0ClipEdge: 0
+    - _Flipbook1ClipEdge: 0
+    - _FlipbookBlending: 0
     - _FlowMapUV: 0
     - _FlowSpeed: 0.25
     - _FlowStrength: 0.3
@@ -677,12 +1084,28 @@ Material:
     - _FoamToggle: 1
     - _FogBrightness: 1
     - _FogBrightness2: 1
+    - _FogFade: 3
+    - _FogOpacity: 0.8
     - _FogPower: 10
     - _FogPower2: 5
+    - _FogRadius: 1.7
     - _FogToggle: 1
     - _FresnelStrength: 1
+    - _FresnelToggle: 1
     - _GSAA: 0
     - _GSAAStrength: 0
+    - _GeomDissolveAmount: -2
+    - _GeomDissolveAxis: 1
+    - _GeomDissolveAxisFlip: 0
+    - _GeomDissolveClamp: 0
+    - _GeomDissolveClip: 0
+    - _GeomDissolveFilter: 1
+    - _GeomDissolveWidth: 0.25
+    - _GeomDissolveWireframe: 0
+    - _GlitchClones: 0
+    - _GlitchFrequency: 0
+    - _GlitchIntensity: 0
+    - _GlitchToggle: 0
     - _GlitterAngleRandomize: 0
     - _GlitterApplyShape: 0
     - _GlitterApplyTransparency: 1
@@ -702,9 +1125,19 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _HDR: 0
     - _HDRReflShad: 1
+    - _HQBlur: 0
+    - _HardenNormals: 0
     - _HeightChannel: 3
+    - _HeightContrast: 1
+    - _HeightFiltering: 0
+    - _HeightIntensity: 0
+    - _HeightLightness: 0
     - _HeightMult: 0
+    - _HeightRemapMax: 1
+    - _HeightRemapMin: 0
+    - _Hide: 0
     - _Hue: 0
     - _HueDet: 0
     - _HueEmiss: 0
@@ -738,14 +1171,32 @@ Material:
     - _IDMaskPrior7: 0
     - _IDMaskPrior8: 0
     - _IgnoreEncryption: 0
+    - _IgnoreFilterMask: 0
+    - _IndirectAO: 0
+    - _IndirectCont: 0.5
+    - _Instability: 0
+    - _Invert: 0
     - _InvertNormals: 0
     - _Invisible: 0
+    - _Iridescence: 0
+    - _IridescenceCurl: 1
+    - _IridescenceCurlScale: 1
+    - _IridescenceEdge: 0
+    - _IridescenceHue: 0
+    - _IridescenceStrength: 1
+    - _IridescenceWidth: 0.7
+    - _IsCubeBlendMask: 0
+    - _IsCutout: 0
+    - _LRad: 0.2
     - _LTCGI: 0
     - _LTCGIStrength: 1
     - _LTCGI_DIFFUSE_OFF: 0
     - _LTCGI_SPECULAR_OFF: 0
+    - _Layering: 0
     - _LightMaxLimit: 1
     - _LightMinLimit: 0.05
+    - _LightingBasedIOR: 0
+    - _LitBaseColor: 1
     - _Main2ndDissolveNoiseStrength: 0.1
     - _Main2ndEnableLighting: 1
     - _Main2ndTexAlphaMode: 0
@@ -775,6 +1226,12 @@ Material:
     - _Main3rdTex_Cull: 0
     - _Main3rdTex_UVMode: 0
     - _MainGradationStrength: 0
+    - _MainTexRot: 0
+    - _MainTexTint: 0
+    - _ManualScrub: 0
+    - _ManualScrub1: 0
+    - _ManualSpecBright: 0
+    - _MaskingMode: 0
     - _MatCap2ndApplyTransparency: 1
     - _MatCap2ndBackfaceMask: 0
     - _MatCap2ndBlend: 1
@@ -803,16 +1260,51 @@ Material:
     - _MatCapShadowMask: 0
     - _MatCapVRParallaxStrength: 1
     - _MatCapZRotCancel: 1
+    - _MatcapBlending: 0
+    - _MatcapBlending1: 0
+    - _MatcapCenter: 0
+    - _MatcapCenter1: 0
+    - _MatcapNormal0Mix: 0
+    - _MatcapNormal0Str: 1
+    - _MatcapNormal0Toggle: 0
+    - _MatcapNormal1Mix: 0
+    - _MatcapNormal1Str: 1
+    - _MatcapNormal1Toggle: 0
+    - _MatcapRough: 0.5
+    - _MatcapRough1: 0.5
+    - _MatcapStr: 1
+    - _MatcapStr1: 1
+    - _MatcapToggle: 0
+    - _MatcapUseRough: 0
+    - _MatcapUseRough1: 0
+    - _MaterialResetCheck: 0
+    - _MaxRange: 15
+    - _MaxSteps: 50
     - _MetaCull: 0
     - _Metallic: 0
     - _MetallicChannel: 2
+    - _MetallicContrast: 1
+    - _MetallicFiltering: 0
+    - _MetallicIntensity: 0
+    - _MetallicLightness: 0
     - _MetallicMult: 0
+    - _MetallicRemapMax: 1
+    - _MetallicRemapMin: 0
+    - _MinRange: 8
+    - _MirrorBehavior: 0
     - _MirrorNormalOffsetSwizzle: 0
     - _MirrorToggle: 0
     - _Mode: 0
     - _MonochromeLighting: 0
     - _NaNLmao: 0
+    - _NearClip: 0
+    - _NearClipToggle: 0
+    - _NearMaxRange: 5
+    - _NearMinRange: 1
+    - _NoiseOctaves: 1
+    - _NoiseSpeed: 0.5
     - _NoiseTexBlur: 0.8
+    - _NonlinearSHToggle: 1
     - _Normal0StochasticToggle: 0
     - _Normal1StochasticToggle: 0
     - _Normal1Toggle: 1
@@ -823,6 +1315,8 @@ Material:
     - _NormalMapOffset1: 0
     - _NormalStr0: 0.3
     - _NormalStr1: 0.3
+    - _NormalStrength: 1
+    - _Occlusion: 1
     - _OcclusionChannel: 0
     - _OcclusionMult: 0
     - _OcclusionStrength: 1
@@ -831,6 +1325,8 @@ Material:
     - _OffsetUnits: 0
     - _Opacity: 1
     - _OpaqueLights: 1
+    - _OscilloscopeRot: 0
+    - _OscilloscopeStrength: 0
     - _OutlineAlphaToMask: 0
     - _OutlineBlendOp: 0
     - _OutlineBlendOpAlpha: 0
@@ -838,6 +1334,7 @@ Material:
     - _OutlineBlendOpFA: 4
     - _OutlineColorMask: 15
     - _OutlineCull: 1
+    - _OutlineCulling: 1
     - _OutlineDeleteMesh: 0
     - _OutlineDisableInVR: 0
     - _OutlineDstBlend: 0
@@ -850,19 +1347,24 @@ Material:
     - _OutlineLitOffset: -8
     - _OutlineLitScale: 10
     - _OutlineLitShadowReceive: 0
+    - _OutlineMult: 1
     - _OutlineOffsetFactor: 0
     - _OutlineOffsetUnits: 0
+    - _OutlineRange: 0
     - _OutlineSrcBlend: 1
     - _OutlineSrcBlendAlpha: 1
     - _OutlineSrcBlendAlphaFA: 0
     - _OutlineSrcBlendFA: 1
     - _OutlineStencilComp: 8
+    - _OutlineStencilCompare: 8
     - _OutlineStencilFail: 0
     - _OutlineStencilPass: 0
     - _OutlineStencilReadMask: 255
     - _OutlineStencilRef: 0
     - _OutlineStencilWriteMask: 255
     - _OutlineStencilZFail: 0
+    - _OutlineThicc: 0.1
+    - _OutlineToggle: 0
     - _OutlineVectorScale: 1
     - _OutlineVectorUVMode: 0
     - _OutlineVertexR2Width: 0
@@ -871,18 +1373,52 @@ Material:
     - _OutlineZClip: 1
     - _OutlineZTest: 2
     - _OutlineZWrite: 1
+    - _PBRWorkflow: 0
+    - _PackedRoughPreview: 0
     - _Parallax: 0.02
     - _ParallaxOffset: 0.5
     - _ParallaxSteps: 25
+    - _PatternMult: 2.5
+    - _PostFiltering: 0
+    - _PreviewAO: 0
+    - _PreviewHeight: 0
+    - _PreviewMetallic: 0
+    - _PreviewRough: 0
+    - _PreviewSmooth: 0
+    - _Pulse: 0
+    - _PulseSpeed: 1
+    - _PulseStr: 0.5
+    - _PulseToggle: 0
+    - _PulseWaveform: 0
     - _QueueOffset: 0
+    - _RTDirectCont: 1
+    - _RTIndirectCont: 1
+    - _RTSelfShadow: 1
+    - _Radius: 1
+    - _RainBias: -1
+    - _RainMaskChannel: 0
+    - _RainMode: 0
     - _RainToggle: 0
+    - _RampPos: 0
+    - _RampWeight: 0
+    - _RampWidth0: 0.005
+    - _RampWidth1: 0.5
+    - _Range: 10
+    - _ReactThresh: 0.5
+    - _ReactToggle: 0
+    - _RealtimeSpec: 0
     - _RecalculateNormals: 1
+    - _ReflCubeFallback: 0
     - _ReflCubeOverrideToggle: 0
     - _ReflCubeToggle: 0
+    - _ReflRough: 0.5
     - _ReflShadowAreaLit: 1
     - _ReflShadowStrength: 1
     - _ReflShadows: 0
+    - _ReflStepping: 0
+    - _ReflSteps: 7
     - _ReflStrength: 1
+    - _ReflUseRough: 0
     - _ReflVertexColor: 0
     - _ReflVertexColorStrength: 1
     - _Reflectance: 0.04
@@ -891,8 +1427,22 @@ Material:
     - _ReflectionCubeEnableLighting: 1
     - _ReflectionCubeOverride: 0
     - _ReflectionNormalStrength: 1
+    - _ReflectionStr: 1
     - _ReflectionStrength: 1
     - _Reflections: 1
+    - _ReflectionsToggle: 1
+    - _RefractMeshNormals: 0
+    - _Refraction: 0
+    - _RefractionBlur: 0
+    - _RefractionBlurRough: 0
+    - _RefractionBlurStrength: 0
+    - _RefractionCA: 0
+    - _RefractionCAStr: 0.1
+    - _RefractionDissolveMaskStr: 1
+    - _RefractionIOR: 1.3
+    - _RefractionMaskStr: 1
+    - _RefractionOpac: 0
+    - _RenderMode: 1
     - _RimApplyTransparency: 1
     - _RimBackfaceMask: 1
     - _RimBlendMode: 1
@@ -907,6 +1457,7 @@ Material:
     - _RimIndirBlur: 0.1
     - _RimIndirBorder: 0.5
     - _RimIndirRange: 0
+    - _RimLighting: 0
     - _RimMainStrength: 0
     - _RimNormalStrength: 1
     - _RimShadeBlur: 1
@@ -918,30 +1469,49 @@ Material:
     - _RimToggle: 0
     - _RimVRParallaxStrength: 1
     - _RimWidth: 0.5
+    - _RippleAmplitude: 0.5
+    - _RippleContinuity: 1
     - _RippleDensity: 1.5707964
+    - _RippleFrequency: 1
     - _RippleScale: 40
     - _RippleSize: 6
     - _RippleSpeed: 10
     - _RippleStr: 1
+    - _RippleStrength: 0
     - _Rotation0: 0
     - _Rotation1: 0
+    - _RoughContrast: 1
+    - _RoughIntensity: 0
+    - _RoughLightness: 0
+    - _RoughRemapMax: 1
+    - _RoughRemapMin: 0
     - _Roughness: 0
     - _RoughnessChannel: 1
+    - _RoughnessFiltering: 0
     - _RoughnessMult: 0
+    - _Rows: 8
+    - _SHStr: 0
+    - _SRad: 0.02
     - _SSR: 0
     - _SSRHeight: 0.1
     - _SSRStrength: 1
     - _SamplingMode: 0
+    - _SaturateEP: 1
     - _Saturation: 1
     - _SaturationDet: 1
     - _SaturationEmiss: 1
     - _SaturationPost: 1
     - _ScatterAlbedoTint: 0
     - _ScatterAmbient: 0
+    - _ScatterBaseColorTint: 0
     - _ScatterDist: 1
     - _ScatterIntensity: 1
     - _ScatterPow: 1
     - _ScatterShadow: 1
+    - _ScatterWrap: 0.01
+    - _Screenspace: 0
+    - _ScrubPos: 1
+    - _ScrubPos1: 1
     - _Shadow2ndBlur: 0.1
     - _Shadow2ndBorder: 0.15
     - _Shadow2ndNormalStrength: 1
@@ -956,43 +1526,84 @@ Material:
     - _ShadowBorderMaskLOD: 0
     - _ShadowBorderRange: 0.08
     - _ShadowColorType: 0
+    - _ShadowConditions: 0
+    - _ShadowDithering: 0
     - _ShadowEnvStrength: 0
     - _ShadowFlatBlur: 1
     - _ShadowFlatBorder: 1
     - _ShadowMainStrength: 0
     - _ShadowMaskType: 0
+    - _ShadowMode: 0
     - _ShadowNormalStrength: 1
     - _ShadowPostAO: 0
     - _ShadowReceive: 0
+    - _ShadowStr: 0.5
     - _ShadowStrength: 1
     - _ShadowStrengthMaskLOD: 0
+    - _SharpSpecStr: 1
+    - _SharpSpecular: 0
+    - _ShatterClones: 0
+    - _ShatterCull: 0.535
+    - _ShatterMax: 0.65
+    - _ShatterMin: 0.25
+    - _ShatterSpread: 0.347
+    - _ShatterToggle: 0
     - _ShiftBackfaceUV: 0
+    - _SmoothContrast: 1
+    - _SmoothIntensity: 0
+    - _SmoothLightness: 0
+    - _SmoothRemapMax: 1
+    - _SmoothRemapMin: 0
     - _Smoothness: 1
+    - _SmoothnessFiltering: 0
     - _SmoothnessTextureChannel: 0
+    - _SoftenStr: 0
+    - _Softening: 0
+    - _SpecBiasOverride: 0.5
+    - _SpecBiasOverrideToggle: 0
+    - _SpecRough: 0.5
+    - _SpecStr: 1
     - _SpecStrength: 1
+    - _SpecUseRough: 0
     - _Specular: 1
     - _SpecularBlur: 0
     - _SpecularBorder: 0.5
     - _SpecularHighlights: 1
     - _SpecularNormalStrength: 1
     - _SpecularStrength: 1
+    - _SpecularToggle: 1
     - _SpecularToon: 1
+    - _Speed: 60
+    - _SpritesheetBlending: 6
+    - _SpritesheetBlending1: 6
+    - _SpritesheetBrightness: 1
+    - _SpritesheetBrightness1: 1
+    - _SpritesheetMode0: 0
+    - _SpritesheetMode1: 0
+    - _SpritesheetRot: 0
+    - _SpritesheetRot1: 0
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _SrcBlendAlphaFA: 0
     - _SrcBlendFA: 1
+    - _StaticLightDirToggle: 0
     - _StencilComp: 8
+    - _StencilCompare: 8
     - _StencilFail: 0
     - _StencilPass: 0
     - _StencilReadMask: 255
     - _StencilRef: 0
+    - _StencilToggle: 0
     - _StencilWriteMask: 255
     - _StencilZFail: 0
+    - _Step: 0.09
+    - _Strength: 0.3
     - _SubpassCutoff: 0.5
     - _Subsurface: 0
     - _SubsurfaceBrightness: 10
     - _SubsurfaceStrength: 0
     - _SubsurfaceThreshold: 0.5
+    - _TeamFiltering: 0
     - _TessDistMax: 50
     - _TessDistMin: 25
     - _TessEdge: 10
@@ -1003,6 +1614,7 @@ Material:
     - _TessStrength: 0.5
     - _TessellationOffsetMask: 1
     - _Test: 10
+    - _TexBlendMode: 0
     - _TexCoordSpace: 0
     - _TexCoordSpaceSwizzle: 1
     - _ThicknessMapPower: 1
@@ -1038,6 +1650,7 @@ Material:
     - _UV5Rotate: 0
     - _UVAlphaMask: 0
     - _UVAlphaMaskSwizzle: 0
+    - _UVAniso: 0
     - _UVDetailMask: 0
     - _UVDetailMaskSwizzle: 0
     - _UVEmissMask: 0
@@ -1054,6 +1667,12 @@ Material:
     - _UVSec: 0
     - _UVSecSwizzle: 0
     - _UnityFogToggle: 1
+    - _UnlitMatcap: 0
+    - _UnlitMatcap1: 0
+    - _UnlitRefraction: 0
+    - _UnlitRim: 1
+    - _UnlitSpritesheet: 0
+    - _UnlitSpritesheet1: 0
     - _UseAlphaMask: 0
     - _UseAnisotropy: 0
     - _UseAudioLink: 0
@@ -1071,26 +1690,51 @@ Material:
     - _UseMain3rdTex: 0
     - _UseMatCap: 0
     - _UseMatCap2nd: 0
+    - _UseMatcap1: 0
+    - _UseMetallicMap: 0
     - _UseOutline: 0
+    - _UseOutlineTexAlpha: 0
     - _UsePOM: 0
     - _UseParallax: 0
     - _UseReflection: 0
     - _UseRim: 0
     - _UseRimShade: 0
     - _UseShadow: 1
+    - _UseShadowsForLREmiss: 0
+    - _UseSmoothMap: 0
     - _UseSmoothness: 0
+    - _UseSpecMap: 0
+    - _UseSpritesheetAlpha: 0
+    - _UseVertexColor: 0
+    - _UsingDetailAlbedo: 0
+    - _UsingDetailMetallic: 0
+    - _UsingDetailOcclusion: 0
+    - _UsingDetailRough: 0
+    - _VLightCont: 1
+    - _VRCFallback: 1
+    - _Value: 0
     - _VertOffsetFlipbookSpeed: 8
     - _VertOffsetFlipbookStrength: 0.2
     - _VertOffsetMode: 0
     - _VertRemapMax: 1
     - _VertRemapMin: -1
     - _VertexBaseColor: 0
+    - _VertexColor: 0
+    - _VertexExpansionClamp: 0
     - _VertexLightStrength: 0
+    - _VertexManipulationToggle: 0
     - _VertexOffsetMaskChannel: 0
     - _VertexOffsetMaskStrength: 1
+    - _VertexRounding: 0
+    - _VertexRoundingPrecision: 100
+    - _Visibility: 0
     - _VisualizeFlowmap: 0
     - _VoronoiSpeed: 1.5
     - _VoronoiWaveHeight: 1
+    - _WFClones: 0
+    - _WFFill: 0
+    - _WFMode: 0
+    - _WFVisibility: 1
     - _WaveDirection0: 0
     - _WaveDirection1: 335
     - _WaveDirection2: 13
@@ -1107,8 +1751,13 @@ Material:
     - _WaveStrength1: 0.1
     - _WaveStrength2: 0.1
     - _WaveStrengthGlobal: 1.5
+    - _Waveform: 0
+    - _WireframeToggle: 0
+    - _WireframeTransparency: 0
     - _Workflow: 0
     - _WrappingFactor: 0.01
+    - _XScale: 1.5
+    - _YScale: 1.5
     - _ZClip: 1
     - _ZTest: 4
     - _ZWrite: 0
@@ -1121,36 +1770,71 @@ Material:
     - _lilShadowCasterBias: 0
     - _lilToonVersion: 43
     m_Colors:
+    - _AOTint: {r: 0, g: 0, b: 0, a: 1}
     - _AngleTint: {r: 1, g: 1, b: 1, a: 1}
     - _AudioLinkDefaultValue: {r: 0, g: 0, b: 2, a: 0.75}
     - _AudioLinkLocalMapParams: {r: 120, g: 1, b: 0, a: 0}
     - _AudioLinkMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkStart: {r: 0, g: 0, b: 0, a: 0}
+    - _AudioLinkTriOffsetMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkUVParams: {r: 0.25, g: 0, b: 0, a: 0.125}
     - _AudioLinkVertexStart: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkVertexStrength: {r: 0, g: 0, b: 0, a: 1}
     - _AudioLinkVertexUVParams: {r: 0.25, g: 0, b: 0, a: 0.125}
+    - _AudioLinkWireframeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AudioLinkWireframeMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _BCColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BCRimCol: {r: 1, g: 1, b: 1, a: 1}
     - _BackfaceColor: {r: 0, g: 0, b: 0, a: 0}
     - _BackfaceTint: {r: 1, g: 1, b: 1, a: 1}
     - _BacklightColor: {r: 0.85, g: 0.8, b: 0.7, a: 1}
     - _BaseColor: {r: 1, g: 0.051886797, b: 0.051886797, a: 1}
+    - _BaseColorTint: {r: 1, g: 1, b: 1, a: 1}
     - _BlendNoiseScale: {r: 2, g: 2, b: 0, a: 0}
     - _CausticsColor: {r: 1, g: 1, b: 1, a: 1}
     - _CausticsDistortionSpeed: {r: 0.2, g: -0.2, b: 0, a: 0}
     - _CausticsRotation: {r: -20, g: 0, b: 20, a: 0}
+    - _ClipRimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Clone1: {r: 1, g: 0, b: 0, a: 1}
+    - _Clone2: {r: -1, g: 0, b: 0, a: 1}
+    - _Clone3: {r: 0, g: 0, b: 1, a: 1}
+    - _Clone4: {r: 0, g: 0, b: -1, a: 1}
+    - _Clone5: {r: 0.5, g: 0, b: 0.5, a: 1}
+    - _Clone6: {r: -0.5, g: 0, b: 0.5, a: 1}
+    - _Clone7: {r: 0.5, g: 0, b: -0.5, a: 1}
+    - _Clone8: {r: -0.5, g: 0, b: -0.5, a: 1}
     - _Color: {r: 0.05098039, g: 0.09256589, b: 1, a: 1}
     - _Color2nd: {r: 1, g: 1, b: 1, a: 1}
     - _Color3rd: {r: 1, g: 1, b: 1, a: 1}
+    - _CubeColor0: {r: 1, g: 1, b: 1, a: 1}
+    - _CubeRotate0: {r: 180, g: 0, b: 0, a: 0}
     - _DetailBaseColorTint: {r: 1, g: 1, b: 1, a: 1}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _DetailScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _DiffuseMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveNoiseMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveNoiseScale: {r: 3, g: 3, b: 3, a: 0}
     - _DissolveParams: {r: 0, g: 0, b: 0.5, a: 0.1}
+    - _DissolvePoint0: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolvePoint1: {r: 1, g: 1, b: 1, a: 1}
     - _DissolvePos: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveRimCol: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveScroll0: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveScroll1: {r: 0, g: 0, b: 0, a: 0}
     - _DistanceFade: {r: 0.1, g: 0.01, b: 0, a: 0}
     - _DistanceFadeColor: {r: 0, g: 0, b: 0, a: 1}
     - _DistanceFadeRimColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DistortUVScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _DistortionSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _ERimMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _ERimScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _ERimTint: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissPulseMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissScroll2: {r: 0, g: 0, b: 0, a: 0}
     - _Emission2ndBlendMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _Emission2ndBlink: {r: 0, g: 0, b: 3.141593, a: 0}
     - _Emission2ndColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1158,8 +1842,13 @@ Material:
     - _EmissionBlendMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionBlink: {r: 0, g: 0, b: 3.141593, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor2: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionMapScroll: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _EntryPos: {r: 0, g: 1, b: 0, a: 0}
+    - _FilterMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _Flipbook0Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _Flipbook1Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _FlowMapScale: {r: 2, g: 2, b: 0, a: 0}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _FoamNoiseTexScale: {r: 3, g: 3, b: 0, a: 0}
@@ -1168,10 +1857,15 @@ Material:
     - _FoamTexScroll: {r: 0.1, g: -0.1, b: 0, a: 0}
     - _FogTint: {r: 0.11, g: 0.26, b: 0.26, a: 1}
     - _FogTint2: {r: 0.055, g: 0.13, b: 0.13, a: 1}
+    - _FrameClipOfs: {r: 0, g: 0, b: 0, a: 0}
+    - _FrameClipOfs1: {r: 0, g: 0, b: 0, a: 0}
+    - _GeomDissolveSpread: {r: 0.1, g: 0.1, b: 0.1, a: 1}
     - _GlitterAtras: {r: 1, g: 1, b: 0, a: 0}
     - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
     - _GlitterParams1: {r: 256, g: 256, b: 0.16, a: 50}
     - _GlitterParams2: {r: 0.25, g: 0, b: 0, a: 0}
+    - _GrabpassTint: {r: 1, g: 1, b: 1, a: 1}
+    - _InterpMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _Keys: {r: 0, g: 0, b: 0, a: 0}
     - _LightDir: {r: 0, g: 0.75, b: 1, a: 0}
     - _LightDirectionOverride: {r: 0.001, g: 0.002, b: 0.001, a: 0}
@@ -1198,39 +1892,86 @@ Material:
     - _MatCap2ndColor: {r: 1, g: 1, b: 1, a: 1}
     - _MatCapBlendUV1: {r: 0, g: 0, b: 0, a: 0}
     - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MatcapBlendMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _MatcapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MatcapColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _MatcapMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _MatcapNormal0Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _MatcapNormal1Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseScale: {r: 1, g: 1, b: 0, a: 0}
     - _NoiseTexScale: {r: 3, g: 3, b: 0, a: 0}
     - _NoiseTexScroll: {r: 0, g: 0.1, b: 0, a: 0}
     - _NonGrabBackfaceTint: {r: 0, g: 0, b: 0, a: 0}
     - _NonGrabColor: {r: 0, g: 0, b: 0, a: 0}
     - _NormalMapFlipbookScale: {r: 3, g: 3, b: 0, a: 0}
+    - _NormalMapScale: {r: 1, g: 1, b: 0, a: 0}
     - _NormalMapScale0: {r: 3, g: 3, b: 0, a: 0}
     - _NormalMapScale1: {r: 4, g: 4, b: 0, a: 0}
     - _NormalMapScroll0: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _NormalMapScroll1: {r: -0.1, g: 0.1, b: 0, a: 0}
     - _Offset: {r: 0, g: 1, b: 0, a: 0}
     - _OpacityMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _OscilloscopeCol: {r: 1, g: 1, b: 1, a: 1}
+    - _OscilloscopeMarginLR: {r: 0, g: 1, b: 0, a: 0}
+    - _OscilloscopeMarginTB: {r: 1, g: 0, b: 0, a: 0}
+    - _OscilloscopeOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _OscilloscopeScale: {r: 1, g: 1, b: 0, a: 0}
+    - _OutlineCol: {r: 0.75, g: 0.75, b: 0.75, a: 1}
     - _OutlineColor: {r: 0.6, g: 0.56, b: 0.73, a: 1}
     - _OutlineLitColor: {r: 1, g: 0.2, b: 0, a: 0}
+    - _OutlineMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineScroll: {r: 0, g: 0, b: 0, a: 0}
     - _OutlineTexHSVG: {r: 0, g: 1, b: 1, a: 1}
     - _OutlineTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _Position: {r: 0, g: 0, b: 0.25, a: 0}
+    - _RGB: {r: 1, g: 1, b: 1, a: 0}
+    - _ReflCol: {r: 1, g: 1, b: 1, a: 1}
     - _ReflCubeRotation: {r: 0, g: 0, b: 0, a: 0}
     - _ReflTint: {r: 1, g: 1, b: 1, a: 1}
     - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
     - _ReflectionCubeColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectionMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _RefractionDissolveMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _RefractionMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _RefractionTint: {r: 1, g: 1, b: 1, a: 1}
     - _RimCol: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0.66, g: 0.5, b: 0.48, a: 1}
     - _RimIndirColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _RimScroll: {r: 0, g: 0, b: 0, a: 0}
     - _RimShadeColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Rotation: {r: 0, g: 0, b: 0, a: 0}
+    - _RowsColumns: {r: 8, g: 8, b: 0, a: 0}
+    - _RowsColumns1: {r: 8, g: 8, b: 0, a: 0}
     - _ScatterCol: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondTexScroll: {r: 0, g: 0, b: 0, a: 0}
     - _Shadow2ndColor: {r: 0.68, g: 0.66, b: 0.79, a: 1}
     - _Shadow3rdColor: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowAOShift: {r: 1, g: 0, b: 1, a: 0}
     - _ShadowAOShift2: {r: 1, g: 0, b: 1, a: 0}
     - _ShadowBorderColor: {r: 1, g: 0.1, b: 0, a: 1}
     - _ShadowColor: {r: 0.82, g: 0.76, b: 0.85, a: 1}
+    - _ShadowMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowTint: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecCol: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecTint: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularityTint: {r: 1, g: 1, b: 1, a: 1}
+    - _SpritesheetCol: {r: 1, g: 1, b: 1, a: 1}
+    - _SpritesheetCol1: {r: 1, g: 1, b: 1, a: 1}
+    - _SpritesheetPos: {r: 0, g: 0, b: 0, a: 0}
+    - _SpritesheetPos1: {r: 0, g: 0, b: 0, a: 0}
+    - _SpritesheetScale: {r: 1, g: 1, b: 0, a: 0}
+    - _SpritesheetScale1: {r: 1, g: 1, b: 0, a: 0}
+    - _StaticLightDir: {r: 0, g: 0.75, b: 1, a: 0}
+    - _SubsurfaceMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _SubsurfaceTint: {r: 1, g: 1, b: 1, a: 1}
+    - _TeamColor0: {r: 1, g: 1, b: 1, a: 1}
+    - _TeamColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _TeamColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _TeamColor3: {r: 1, g: 1, b: 1, a: 1}
     - _TintReflShad: {r: 1, g: 1, b: 1, a: 1}
     - _UV0Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _UV1Scroll: {r: 0, g: 0, b: 0, a: 0}
@@ -1240,9 +1981,13 @@ Material:
     - _UV5Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _UVRimMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _VertOffsetFlipbookScale: {r: 3, g: 3, b: 0, a: 0}
+    - _VertexExpansion: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexRotation: {r: 0, g: 0, b: 0, a: 0}
     - _VoronoiOffset: {r: 0, g: 1, b: 0, a: 0}
     - _VoronoiScale: {r: 2, g: 2, b: 0, a: 0}
     - _VoronoiScroll: {r: 0, g: -0.25, b: 0, a: 0}
+    - _WFColor: {r: 0, g: 0, b: 0, a: 1}
     - _e2ga0: {r: 1, g: 0, b: 0, a: 0}
     - _e2ga1: {r: 1, g: 0, b: 0, a: 1}
     - _e2ga2: {r: 1, g: 0, b: 0, a: 0}
