@@ -6022,6 +6022,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 900045883854937190, guid: 011779d07e2bcbd42afc5fc71f3409a2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73bf43074b58bb3478a6fe7a0eca47b1, type: 2}
     - target: {fileID: 2325709760351362998, guid: 011779d07e2bcbd42afc5fc71f3409a2, type: 3}
       propertyPath: m_Name
       value: Fan Remote
@@ -8814,6 +8818,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 736270878602438406, guid: c92f69cfbc88fd64c94fd8e018a8c8e9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2563615692273208027, guid: c92f69cfbc88fd64c94fd8e018a8c8e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.358
@@ -8850,6 +8858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lantern & Remote Set Indoor
       objectReference: {fileID: 0}
+    - target: {fileID: 5387033418202256687, guid: c92f69cfbc88fd64c94fd8e018a8c8e9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a84cace603a5017418d93aef99251939, type: 2}
     - target: {fileID: 6523950622210092608, guid: c92f69cfbc88fd64c94fd8e018a8c8e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.853
@@ -8909,6 +8921,10 @@ PrefabInstance:
     - target: {fileID: 8792389468574728239, guid: c92f69cfbc88fd64c94fd8e018a8c8e9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062346112255399681, guid: c92f69cfbc88fd64c94fd8e018a8c8e9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
