@@ -5956,6 +5956,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 820672486426239393, guid: c4a75564e188ced4590a00b201207a76, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4917773985031831922, guid: c4a75564e188ced4590a00b201207a76, type: 3}
       propertyPath: m_Name
       value: Flashlight
@@ -5966,7 +5970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9026252282729993454, guid: c4a75564e188ced4590a00b201207a76, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.825
+      value: 0.915
       objectReference: {fileID: 0}
     - target: {fileID: 9026252282729993454, guid: c4a75564e188ced4590a00b201207a76, type: 3}
       propertyPath: m_LocalPosition.z
