@@ -13,7 +13,14 @@ public class ToggleRaycast : MonoBehaviour
     [SerializeField]
     private GameObject RaycastRight;
 
-    private bool bChecktoggle = false;
+    [SerializeField]
+    [Tooltip("Check left hand Raycast")]
+    private bool bLeftChecktoggle = false;
+
+    [SerializeField]
+    [Tooltip("Check right hand Raycast")]
+    private bool bRightChecktoggle = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,40 +30,66 @@ public class ToggleRaycast : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(bChecktoggle)
+       if(bLeftChecktoggle)
         {
-            ToggleRaycastOff();
+            ToggleLeftRaycastOff();
         }
        else
         {
-            ToggleRaycastOn();
+            ToggleLeftRaycastOn();
+        }
+
+       if (bRightChecktoggle)
+        {
+            ToggleRightRaycastOff();
+        }
+       else
+        {
+            ToggleRightRaycastOn();
         }
     }
 
-    public void toggle()
+    public void leftToggle()
     {
-        if(bChecktoggle)
+        if(bLeftChecktoggle)
         {
-            bChecktoggle = false;
+            bLeftChecktoggle = false;
         }
         else
         {
-            bChecktoggle = true;
+            bLeftChecktoggle = true;
+        }
+    }
+    public void rightToggle()
+    {
+        if (bRightChecktoggle)
+        {
+            bRightChecktoggle = false;
+        }
+        else
+        {
+            bRightChecktoggle = true;
         }
     }
 
-    public void ToggleRaycastOn()
+    public void ToggleLeftRaycastOn()
     {
         RaycastLeft.SetActive(true);
-        RaycastRight.SetActive(true);
         directHandsLeft.SetActive(false);
+    }
+    public void ToggleRightRaycastOn()
+    {
+        RaycastRight.SetActive(true);
         directHandsRight.SetActive(false);
     }
-    public void ToggleRaycastOff()
+    public void ToggleLeftRaycastOff()
     {
         RaycastLeft.SetActive(false);
-        RaycastRight.SetActive(false);
         directHandsLeft.SetActive(true);
+    }
+    public void ToggleRightRaycastOff()
+    {
+        RaycastRight.SetActive(false);
         directHandsRight.SetActive(true);
     }
 }
