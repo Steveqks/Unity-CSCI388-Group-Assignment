@@ -1003,6 +1003,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 444244886}
     m_Modifications:
     - target: {fileID: 1610125275632443866, guid: f4389cd9d80e48d43a029668beba2f77, type: 3}
+      propertyPath: MaxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1610125275632443866, guid: f4389cd9d80e48d43a029668beba2f77, type: 3}
       propertyPath: rolloffMode
       value: 1
       objectReference: {fileID: 0}
@@ -4927,7 +4931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 424284445803052508, guid: caf14e3ff50dc6945b5425c2754930c9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 424284445803052508, guid: caf14e3ff50dc6945b5425c2754930c9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5355,7 +5359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21689,6 +21693,18 @@ PrefabInstance:
     - target: {fileID: 144046229181188542, guid: 08680da85be05b44a83fd91aa9487605, type: 3}
       propertyPath: m_Name
       value: House
+      objectReference: {fileID: 0}
+    - target: {fileID: 598455509653422253, guid: 08680da85be05b44a83fd91aa9487605, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 598455509653422253, guid: 08680da85be05b44a83fd91aa9487605, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 598455509653422253, guid: 08680da85be05b44a83fd91aa9487605, type: 3}
+      propertyPath: m_Center.y
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 2120909171957875855, guid: 08680da85be05b44a83fd91aa9487605, type: 3}
       propertyPath: m_LocalPosition.x
